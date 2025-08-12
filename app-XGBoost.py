@@ -6,6 +6,7 @@ import joblib
 import shap
 from sklearn.ensemble import RandomForestRegressor
 # 必须首先显式导入 enable_iterative_imputer
+from sklearn.experimental import enable_iterative_imputer
 from sklearn.impute import IterativeImputer
 
 from sklearn.preprocessing import MinMaxScaler
